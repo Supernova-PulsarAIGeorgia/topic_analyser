@@ -1,5 +1,5 @@
 <p align="center">
-<img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://media-exp1.licdn.com/dms/image/C4D0BAQFxBa6W6H46_Q/company-logo_200_200/0/1655455167248?e=2147483647&v=beta&t=9APBEwiZiKz4a9CAZ7-QeS7UE3Ill9e7ZwITaAG0e5o)">
+<img width="460" height="300" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFxBa6W6H46_Q/company-logo_200_200/0/1655455167248?e=2147483647&v=beta&t=9APBEwiZiKz4a9CAZ7-QeS7UE3Ill9e7ZwITaAG0e5o">
 </p>
 # topic_analyser
 Topic analyser is intent classification model which created by Supernova-PulsarAIGeorgia.
