@@ -1,0 +1,15 @@
+# use a python container as a starting point
+FROM python:3.9-slim
+
+# copy the dependencies file to the working directory
+COPY requirements.txt requirements.txt
+
+# install dependencies of interest
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# copy data files from disk
+COPY . .
+
+# command to run when container is called to run
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0"]
+EXPOSE 8000
