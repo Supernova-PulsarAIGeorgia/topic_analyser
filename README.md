@@ -14,11 +14,11 @@ In intent_classification folder you have all necassery file to train model
 
 In topic_analyser_api we have model folder which contains neccessary files for model inferenece.
 
-##Work with us
+## Work with us
 
 You are welcomed to contribute to this repository
 
-#License
+## License
 
 MIT
 
