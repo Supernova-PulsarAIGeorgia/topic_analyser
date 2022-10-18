@@ -24,7 +24,30 @@ sudo docker build -t dockerfile .
 ```sh
 sudo docker run -p 8000:8000 dockerfile
 ```
+## Structure
 
+### Intent Classification
+
+[IntentClassification.ipynb](https://github.com/Supernova-PulsarAIGeorgia/topic_analyser/blob/main/intent_calssification/IntentClassification.ipynb) contains model training code.
+
+### Model Folder
+[model](https://github.com/Supernova-PulsarAIGeorgia/topic_analyser/tree/main/topic_analyser_api/model)  condains all neccasery files for model, due to file size limitation on github,we uploaded the pytorch_model.bin file to drive. Dowloand the file and add it to the model folder. [Link](https://drive.google.com/drive/folders/1KkOpq-uOatYzBV4YKhN3ejFjfoYTCgf4?usp=sharing)
+
+### App
+
+Implements actual intent calssification. Currently, this part is implemented as REST API.
+
+[main](https://github.com/Supernova-PulsarAIGeorgia/topic_analyser/blob/main/topic_analyser_api/main.py) implements the server and classification.
+
+[calssifier](https://github.com/Supernova-PulsarAIGeorgia/topic_analyser/blob/main/topic_analyser_api/classifier.py) inferenece of the model.
+
+
+## Contribution
+
+We welcome your pull requests for bug fixes. To implement something new, please create an issue first so we can discuss it together.
+We also welcome to increase data and nnumber of labels.
+
+When your code is ready to be submitted, submit a pull request to begin the code review process. We have added a pull request template to our project.
 ## Work with us
 
 You are welcomed to contribute to this repository
