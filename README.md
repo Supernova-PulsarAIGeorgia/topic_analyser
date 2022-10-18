@@ -41,6 +41,9 @@ Implements actual intent calssification. Currently, this part is implemented as 
 
 [calssifier](https://github.com/Supernova-PulsarAIGeorgia/topic_analyser/blob/main/topic_analyser_api/classifier.py) inferenece of the model.
 
+### Questions
+
+If you have a question, create an issue, and label it as a question.
 
 ## Contribution
 
@@ -53,6 +56,4 @@ When your code is ready to be submitted, submit a pull request to begin the code
 You are welcomed to contribute to this repository
 
 ## License
-
-MIT
-
+This project is licensed under the terms of the MIT open source license. Please refer to [LICENSE](https://github.com/Supernova-PulsarAIGeorgia/semantic-search/blob/main/LICENSE) for the full terms.
